@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="6eb7ef6a-417b-40d6-82c3-2b6fc16bdf61">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлассификаторОКВЭД2" category="Object">
+				<xr:TypeId>337cfcfa-a21b-42cc-8d77-af48c4f8ced7</xr:TypeId>
+				<xr:ValueId>b387a56c-d679-4f7f-9ace-5a5cc4ae7813</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлассификаторОКВЭД2" category="Ref">
+				<xr:TypeId>81c9b1b1-bff5-4ae6-ba39-4f4c8334a2ff</xr:TypeId>
+				<xr:ValueId>6f120425-54ee-4f67-bf8a-2dfc8c15f954</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлассификаторОКВЭД2" category="Selection">
+				<xr:TypeId>e15f673a-40be-4e1b-9ad3-acfd937dc9f0</xr:TypeId>
+				<xr:ValueId>b1574288-e315-452e-aeb4-6a3fc5e3a9c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлассификаторОКВЭД2" category="List">
+				<xr:TypeId>a1ceca13-f678-4ca1-8495-937e29f42d20</xr:TypeId>
+				<xr:ValueId>d6fb51ee-0da7-438f-92f0-07b56e8351cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлассификаторОКВЭД2" category="Manager">
+				<xr:TypeId>54130db7-c080-443c-a58a-0cf7cc90db0b</xr:TypeId>
+				<xr:ValueId>c9325f94-0d14-43f5-81db-d853c66bf5e9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлассификаторОКВЭД2</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9bdff5a2-4489-4771-a00f-91e676e076fb</ExtendedConfigurationObject>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

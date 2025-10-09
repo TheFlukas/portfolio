@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="e42f3d5b-2d4a-4d91-9eb1-b9609bc6daa6">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КоллекцииНоменклатуры" category="Object">
+				<xr:TypeId>3a929e26-0286-4287-9cbf-e97780a3e917</xr:TypeId>
+				<xr:ValueId>6f3297ac-a92e-47f3-9612-6c6557a98e20</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КоллекцииНоменклатуры" category="Ref">
+				<xr:TypeId>ddbbb5e8-7188-4979-8538-f88bc22baeb0</xr:TypeId>
+				<xr:ValueId>8e7fd9b5-70cc-4c28-9dc4-4ee97667962f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КоллекцииНоменклатуры" category="Selection">
+				<xr:TypeId>cebb377e-2616-4a0c-bb85-dec5b308800b</xr:TypeId>
+				<xr:ValueId>55b8a9fa-7a00-4311-9a25-1fc4ea894da1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КоллекцииНоменклатуры" category="List">
+				<xr:TypeId>6c868c30-6a96-4554-b764-4f24dc5e7bdf</xr:TypeId>
+				<xr:ValueId>aa702603-4f42-4d2d-be76-570c322d13cd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КоллекцииНоменклатуры" category="Manager">
+				<xr:TypeId>3d2f16c4-cd78-4dfd-80fc-d823aae2107f</xr:TypeId>
+				<xr:ValueId>f5067995-64f2-4248-ac54-6b8348650b61</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КоллекцииНоменклатуры</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b25817a2-618c-4a94-86bf-3be7396b0a97</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

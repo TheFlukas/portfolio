@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="648a121d-7db9-4ded-9963-1fa81e265bda">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ОбщероссийскийКлассификаторПродукции" category="Object">
+				<xr:TypeId>edc81716-506e-4ff4-93c1-f5b569cd295d</xr:TypeId>
+				<xr:ValueId>c19bc120-e059-43e1-bc59-d7b29c9567b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ОбщероссийскийКлассификаторПродукции" category="Ref">
+				<xr:TypeId>d13a865f-2dba-4dc4-9ae1-52fdcfb5c2d5</xr:TypeId>
+				<xr:ValueId>7f15418e-d9aa-4dfc-9bd4-1f7c45008d73</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ОбщероссийскийКлассификаторПродукции" category="Selection">
+				<xr:TypeId>e1b34d37-a488-4ea2-93ca-3753f109e89b</xr:TypeId>
+				<xr:ValueId>5b5396af-cfcd-42c6-9f2d-ba903489917a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ОбщероссийскийКлассификаторПродукции" category="List">
+				<xr:TypeId>f254d009-c8e3-47df-aeee-e21c5035954d</xr:TypeId>
+				<xr:ValueId>9256828f-f6a8-4615-a273-9e6667919560</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ОбщероссийскийКлассификаторПродукции" category="Manager">
+				<xr:TypeId>1c6f263a-836b-4666-ad18-499c70958516</xr:TypeId>
+				<xr:ValueId>ecb156ad-f736-4055-8f59-03c4e21d006c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОбщероссийскийКлассификаторПродукции</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f188ae5c-a748-4ff2-bf39-b665b8615f1f</ExtendedConfigurationObject>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

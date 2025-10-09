@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="343700d8-e91a-4e03-a404-606114607bc5">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.РежимыЗагрузкиХарактеристикРаботаСНоменклатурой" category="Ref">
+				<xr:TypeId>551315d6-6072-477c-9179-d30986436106</xr:TypeId>
+				<xr:ValueId>134c5fca-be2d-4ccb-91c5-7e7fd3542cab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.РежимыЗагрузкиХарактеристикРаботаСНоменклатурой" category="Manager">
+				<xr:TypeId>3c06e7e7-921a-4633-a270-04877ac5b663</xr:TypeId>
+				<xr:ValueId>cdbfe9ae-8b62-4d34-ac3d-43706cca00f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.РежимыЗагрузкиХарактеристикРаботаСНоменклатурой" category="List">
+				<xr:TypeId>a2a21dd1-306d-4275-ad63-cc8de636e85c</xr:TypeId>
+				<xr:ValueId>de7e226c-d104-4e0c-9421-79bc32a5d841</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РежимыЗагрузкиХарактеристикРаботаСНоменклатурой</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6a14eeec-e90b-445c-8b0a-95385a749930</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="9b1c045e-8fa3-48e5-b3dc-c9bf5f949cd8">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ШаблоныЭтикетокИЦенников" category="Object">
+				<xr:TypeId>d31425c4-62f3-41dd-bf38-57125f1a4426</xr:TypeId>
+				<xr:ValueId>cd12307c-f697-4f08-9f9c-49a405fbf2c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ШаблоныЭтикетокИЦенников" category="Ref">
+				<xr:TypeId>9599b5c3-bc99-4a0d-a7c4-4cd5a14b2c34</xr:TypeId>
+				<xr:ValueId>22494254-4f50-4c19-bf25-18372ad8a294</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ШаблоныЭтикетокИЦенников" category="Selection">
+				<xr:TypeId>f679870d-cfcf-47f2-baa4-f9e991300cc5</xr:TypeId>
+				<xr:ValueId>49f5f6a0-0e9b-4bca-9af1-e5555d2f863f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ШаблоныЭтикетокИЦенников" category="List">
+				<xr:TypeId>35a2f10e-43e1-45dd-bb59-d0ce15ea68a2</xr:TypeId>
+				<xr:ValueId>6493c0f0-1ca2-4a95-915d-ce1051879a3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ШаблоныЭтикетокИЦенников" category="Manager">
+				<xr:TypeId>070e4d9f-a76f-4827-91ab-8f7d252cd45a</xr:TypeId>
+				<xr:ValueId>8c6ab4bd-1d1a-4672-b833-e9e29906f701</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ШаблоныЭтикетокИЦенников</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f6ecc26c-bdc7-4d8e-81ef-5bbffd7ce8cf</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

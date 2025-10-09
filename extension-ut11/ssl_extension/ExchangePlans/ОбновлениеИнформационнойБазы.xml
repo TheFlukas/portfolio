@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<ExchangePlan uuid="63cdbf1a-caa1-477d-8027-f063c85ae4f7">
+		<InternalInfo>
+			<xr:ThisNode>74ac125a-4d17-4bfd-a3c7-062139e7cc9e</xr:ThisNode>
+			<xr:GeneratedType name="ExchangePlanObject.ОбновлениеИнформационнойБазы" category="Object">
+				<xr:TypeId>4ece4120-2fb5-4fed-b66a-0ac9005a0368</xr:TypeId>
+				<xr:ValueId>a9d52f2e-0232-4c5e-9f39-176131291c9e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanRef.ОбновлениеИнформационнойБазы" category="Ref">
+				<xr:TypeId>6a40cc96-7437-4195-80db-288e3a4a381c</xr:TypeId>
+				<xr:ValueId>263cdf93-dfb6-47a8-aa1c-ad0a67f09b77</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanSelection.ОбновлениеИнформационнойБазы" category="Selection">
+				<xr:TypeId>9ede8d0c-ce4a-4ff3-8649-8362926fd6ff</xr:TypeId>
+				<xr:ValueId>03ede5e6-089b-40b1-8ee7-9652a363be5f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanList.ОбновлениеИнформационнойБазы" category="List">
+				<xr:TypeId>684197f9-7a96-4105-9bea-172161718369</xr:TypeId>
+				<xr:ValueId>9329cf45-4812-479a-b5a8-2777bcc4344e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanManager.ОбновлениеИнформационнойБазы" category="Manager">
+				<xr:TypeId>88b6bda3-fef2-4f2a-9f15-c49ae5ffa4c6</xr:TypeId>
+				<xr:ValueId>f041b467-f305-4c57-8b36-a0332cd893fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>Content</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОбновлениеИнформационнойБазы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3fc019d1-aec8-4835-96c5-3bbf43da0b94</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</ExchangePlan>
+</MetaDataObject>

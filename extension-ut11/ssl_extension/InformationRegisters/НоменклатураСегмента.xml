@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<InformationRegister uuid="359c9b2c-5255-4295-8518-96df476d98d2">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НоменклатураСегмента" category="Record">
+				<xr:TypeId>b50275a3-d7e6-4c31-ab25-960c65031184</xr:TypeId>
+				<xr:ValueId>4566607e-346d-4c0c-a078-ec488bf20eef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НоменклатураСегмента" category="Manager">
+				<xr:TypeId>65bbad23-d0cc-4cd5-a674-6f4dadfd1218</xr:TypeId>
+				<xr:ValueId>78ed7f01-03a6-464c-979a-dd13af1a0377</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НоменклатураСегмента" category="Selection">
+				<xr:TypeId>f9142fae-aeaf-4506-8837-7602398b7e95</xr:TypeId>
+				<xr:ValueId>430713e6-ffe2-48b1-9320-38199bba7e45</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НоменклатураСегмента" category="List">
+				<xr:TypeId>be8fb2eb-b9d4-45d0-8f85-0947306f24f3</xr:TypeId>
+				<xr:ValueId>92eadea4-e1fb-4304-a7e5-a2da553a5e3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НоменклатураСегмента" category="RecordSet">
+				<xr:TypeId>6734f67b-bd8b-4860-9210-0298e1f20866</xr:TypeId>
+				<xr:ValueId>c0deb02a-d7a7-4f90-b83e-4f902bb9f27c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НоменклатураСегмента" category="RecordKey">
+				<xr:TypeId>fde16543-b65f-4932-9efc-df0f0a7a12fa</xr:TypeId>
+				<xr:ValueId>9ff25bc9-ebb1-45c8-8cde-834d6d521574</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НоменклатураСегмента" category="RecordManager">
+				<xr:TypeId>9e95bed8-ffdb-48e9-94c6-15ce1c5a4156</xr:TypeId>
+				<xr:ValueId>9dd91295-7f89-461f-926e-14126be903fd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НоменклатураСегмента</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>368f38f9-efff-4a01-80c1-d99ec7f60ebb</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="5dec1037-1f18-4102-90d7-1189d8f537d7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>307ee022-4a56-42a2-bb91-6061e402e7ac</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="b13ff05b-2a8e-4a9d-8c15-80aca6502618">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сегмент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7213d70f-220e-4e61-acc2-3081ea7bda11</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СегментыНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

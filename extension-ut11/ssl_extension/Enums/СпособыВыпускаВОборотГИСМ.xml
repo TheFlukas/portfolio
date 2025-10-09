@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="0ec09059-2f2c-41fe-a784-8672ea02c393">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыВыпускаВОборотГИСМ" category="Ref">
+				<xr:TypeId>6fecea0a-53e6-4eb3-bf27-dedfd065cd20</xr:TypeId>
+				<xr:ValueId>2bc42c66-28bf-4a16-8e9d-96916f4e15b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыВыпускаВОборотГИСМ" category="Manager">
+				<xr:TypeId>1f72e450-fcc0-4bf2-a7ce-69b70771c83f</xr:TypeId>
+				<xr:ValueId>4966ee02-3651-44ea-bf08-b4f7e1e70b77</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыВыпускаВОборотГИСМ" category="List">
+				<xr:TypeId>0ec5fe11-29f6-45de-8b20-6fc145952a7b</xr:TypeId>
+				<xr:ValueId>9ca6eb2c-0f1a-455b-b873-8cca75640b87</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыВыпускаВОборотГИСМ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8ac26438-a4c0-48bd-8406-ab829526eee2</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

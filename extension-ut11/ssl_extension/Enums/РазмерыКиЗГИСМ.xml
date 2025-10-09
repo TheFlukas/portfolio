@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="cf52a9d4-e947-44f1-af80-0628e5455220">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.РазмерыКиЗГИСМ" category="Ref">
+				<xr:TypeId>d156150b-73c7-4746-a141-479797d62082</xr:TypeId>
+				<xr:ValueId>9b0d175b-30cc-4694-aca4-4157abc8b609</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.РазмерыКиЗГИСМ" category="Manager">
+				<xr:TypeId>36a1fd10-fe4e-4351-b0d7-0c6985b739fe</xr:TypeId>
+				<xr:ValueId>6f49bca5-0ffb-4f71-aef6-2cd22e2ded9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.РазмерыКиЗГИСМ" category="List">
+				<xr:TypeId>6a3d9bc0-73fc-4dc0-b792-2b8a6a870aaa</xr:TypeId>
+				<xr:ValueId>3b4e47c8-9eca-4d7e-8a99-fd7bfa68b771</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РазмерыКиЗГИСМ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>be3cc144-3191-4043-9c1d-19e80d4f3d04</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>
