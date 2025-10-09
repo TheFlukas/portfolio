@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="AfterWrite">ПослеЗаписи</Event>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Заявка" id="7">
+			<DataPath>Объект.Заявка</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер заявки</v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="ЗаявкаКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ЗаявкаРасширеннаяПодсказка" id="9"/>
+			<SelectedItemsActionsPanel name="ЗаявкаПанельДействийВыделенныхСтрок" id="44"/>
+		</InputField>
+		<UsualGroup name="ГруппаНомера" id="31">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номера</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номера</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНомераРасширеннаяПодсказка" id="32"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Инцидент №</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<Width>19</Width>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+					<SelectedItemsActionsPanel name="НомерПанельДействийВыделенныхСтрок" id="45"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>от</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+					<SelectedItemsActionsPanel name="ДатаПанельДействийВыделенныхСтрок" id="46"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ITСервис" id="10">
+			<DataPath>Объект.ITСервис</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>IT-Сервис</v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="ITСервисКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ITСервисРасширеннаяПодсказка" id="12"/>
+			<SelectedItemsActionsPanel name="ITСервисПанельДействийВыделенныхСтрок" id="47"/>
+		</InputField>
+		<InputField name="Контрагент" id="13">
+			<DataPath>Объект.Контрагент</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="15"/>
+			<SelectedItemsActionsPanel name="КонтрагентПанельДействийВыделенныхСтрок" id="48"/>
+		</InputField>
+		<InputField name="Сотрудник" id="16">
+			<DataPath>Объект.Сотрудник</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник</v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="СотрудникКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="18"/>
+			<SelectedItemsActionsPanel name="СотрудникПанельДействийВыделенныхСтрок" id="49"/>
+		</InputField>
+		<InputField name="Актив" id="19">
+			<DataPath>Объект.Актив</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Актив</v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="АктивКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="АктивРасширеннаяПодсказка" id="21"/>
+			<SelectedItemsActionsPanel name="АктивПанельДействийВыделенныхСтрок" id="50"/>
+		</InputField>
+		<InputField name="СтатусАктива" id="41">
+			<DataPath>Объект.СтатусАктива</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус актива</v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="СтатусАктиваКонтекстноеМеню" id="42"/>
+			<ExtendedTooltip name="СтатусАктиваРасширеннаяПодсказка" id="43"/>
+			<SelectedItemsActionsPanel name="СтатусАктиваПанельДействийВыделенныхСтрок" id="51"/>
+		</InputField>
+		<InputField name="ПричинаОбращения" id="22">
+			<DataPath>Объект.ПричинаОбращения</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Причина обращения</v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="ПричинаОбращенияКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ПричинаОбращенияРасширеннаяПодсказка" id="24"/>
+			<SelectedItemsActionsPanel name="ПричинаОбращенияПанельДействийВыделенныхСтрок" id="52"/>
+		</InputField>
+		<InputField name="Статус" id="28">
+			<DataPath>Объект.Статус</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус</v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="СтатусКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="30"/>
+			<SelectedItemsActionsPanel name="СтатусПанельДействийВыделенныхСтрок" id="53"/>
+		</InputField>
+		<InputField name="Комментарий" id="25">
+			<DataPath>Объект.Комментарий</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комментарий</v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="27"/>
+			<SelectedItemsActionsPanel name="КомментарийПанельДействийВыделенныхСтрок" id="54"/>
+		</InputField>
+		<CommandBar name="ГруппаКоманд" id="33">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа команд</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа команд</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalLocation>Center</HorizontalLocation>
+			<ExtendedTooltip name="ГруппаКомандРасширеннаяПодсказка" id="34"/>
+			<ChildItems>
+				<Button name="ПровестиИЗакрыть" id="35">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.StandardCommand.PostAndClose</CommandName>
+					<BackColor>#E67E22</BackColor>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Оформить</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ПровестиИЗакрытьРасширеннаяПодсказка" id="36"/>
+				</Button>
+				<Button name="Записать" id="37">
+					<Type>CommandBarHyperlink</Type>
+					<CommandName>Form.StandardCommand.Write</CommandName>
+					<TextColor>#800000</TextColor>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сохранить</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ЗаписатьРасширеннаяПодсказка" id="38"/>
+				</Button>
+				<Button name="УстановитьПометкуУдаления" id="39">
+					<Type>CommandBarHyperlink</Type>
+					<CommandName>Form.StandardCommand.SetDeletionMark</CommandName>
+					<TextColor>#FF0000</TextColor>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Удалить</v8:content>
+						</v8:item>
+					</Title>
+					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+					<ExtendedTooltip name="УстановитьПометкуУдаленияРасширеннаяПодсказка" id="40"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Инцидент</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Наименование" id="1">
+			<DataPath>Объект.Description</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<MaxWidth>30</MaxWidth>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Название должности</v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
+			<SelectedItemsActionsPanel name="НаименованиеПанельДействийВыделенныхСтрок" id="44"/>
+		</InputField>
+		<InputField name="ТекущаяЗаработнаяПлата" id="35">
+			<DataPath>Объект.ТекущаяЗаработнаяПлата</DataPath>
+			<Width>11</Width>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТекущаяЗаработнаяПлатаКонтекстноеМеню" id="36"/>
+			<ExtendedTooltip name="ТекущаяЗаработнаяПлатаРасширеннаяПодсказка" id="37"/>
+			<SelectedItemsActionsPanel name="ТекущаяЗаработнаяПлатаПанельДействийВыделенныхСтрок" id="45"/>
+		</InputField>
+		<Table name="Описание" id="4">
+			<Representation>List</Representation>
+			<RowSelectionMode>Cell</RowSelectionMode>
+			<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Описание</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ОписаниеКонтекстноеМеню" id="5"/>
+			<AutoCommandBar name="ОписаниеКоманднаяПанель" id="6"/>
+			<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="7"/>
+			<SearchStringAddition name="ОписаниеСтрокаПоиска" id="8">
+				<AdditionSource>
+					<Item>Описание</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ОписаниеСтрокаПоискаКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ОписаниеСтрокаПоискаРасширеннаяПодсказка" id="10"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ОписаниеСостояниеПросмотра" id="11">
+				<AdditionSource>
+					<Item>Описание</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ОписаниеСостояниеПросмотраКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ОписаниеСостояниеПросмотраРасширеннаяПодсказка" id="13"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ОписаниеУправлениеПоиском" id="14">
+				<AdditionSource>
+					<Item>Описание</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ОписаниеУправлениеПоискомКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ОписаниеУправлениеПоискомРасширеннаяПодсказка" id="16"/>
+			</SearchControlAddition>
+			<SelectedItemsActionsPanel name="ОписаниеПанельДействийВыделенныхСтрок" id="46"/>
+			<ChildItems>
+				<LabelField name="ОписаниеНомерСтроки" id="17">
+					<DataPath>Объект.Описание.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ОписаниеНомерСтрокиКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ОписаниеНомерСтрокиРасширеннаяПодсказка" id="19"/>
+					<SelectedItemsActionsPanel name="ОписаниеНомерСтрокиПанельДействийВыделенныхСтрок" id="47"/>
+				</LabelField>
+				<CheckBoxField name="ОписаниеНаличиеОпыта" id="20">
+					<DataPath>Объект.Описание.НаличиеОпыта</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ОписаниеНаличиеОпытаКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ОписаниеНаличиеОпытаРасширеннаяПодсказка" id="22"/>
+					<SelectedItemsActionsPanel name="ОписаниеНаличиеОпытаПанельДействийВыделенныхСтрок" id="48"/>
+				</CheckBoxField>
+				<CheckBoxField name="ОписаниеНаличиеОбразования" id="23">
+					<DataPath>Объект.Описание.НаличиеОбразования</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ОписаниеНаличиеОбразованияКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ОписаниеНаличиеОбразованияРасширеннаяПодсказка" id="25"/>
+					<SelectedItemsActionsPanel name="ОписаниеНаличиеОбразованияПанельДействийВыделенныхСтрок" id="49"/>
+				</CheckBoxField>
+				<InputField name="ОписаниеПереченьНавыков" id="26">
+					<DataPath>Объект.Описание.ПереченьНавыков</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОписаниеПереченьНавыковКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ОписаниеПереченьНавыковРасширеннаяПодсказка" id="28"/>
+					<SelectedItemsActionsPanel name="ОписаниеПереченьНавыковПанельДействийВыделенныхСтрок" id="50"/>
+				</InputField>
+				<InputField name="ОписаниеГрафикРаботы" id="29">
+					<DataPath>Объект.Описание.ГрафикРаботы</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОписаниеГрафикРаботыКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ОписаниеГрафикРаботыРасширеннаяПодсказка" id="31"/>
+					<SelectedItemsActionsPanel name="ОписаниеГрафикРаботыПанельДействийВыделенныхСтрок" id="51"/>
+				</InputField>
+				<InputField name="ОписаниеЗаработнаяПлата" id="32">
+					<DataPath>Объект.Описание.ЗаработнаяПлата</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОписаниеЗаработнаяПлатаКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ОписаниеЗаработнаяПлатаРасширеннаяПодсказка" id="34"/>
+					<SelectedItemsActionsPanel name="ОписаниеЗаработнаяПлатаПанельДействийВыделенныхСтрок" id="52"/>
+					<Events>
+						<Event name="OnChange">ОписаниеЗаработнаяПлатаПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<CommandBar name="ГруппаКоманд" id="38">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа команд</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа команд</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalLocation>Center</HorizontalLocation>
+			<ExtendedTooltip name="ГруппаКомандРасширеннаяПодсказка" id="39"/>
+			<ChildItems>
+				<Button name="ЗаписатьИЗакрыть" id="40">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.StandardCommand.WriteAndClose</CommandName>
+					<BackColor>#E67E22</BackColor>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сохранить</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ЗаписатьИЗакрытьРасширеннаяПодсказка" id="41"/>
+				</Button>
+				<Button name="УстановитьПометкуУдаления" id="42">
+					<Type>CommandBarHyperlink</Type>
+					<CommandName>Form.StandardCommand.SetDeletionMark</CommandName>
+					<TextColor>#FF0000</TextColor>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Удалить</v8:content>
+						</v8:item>
+					</Title>
+					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+					<ExtendedTooltip name="УстановитьПометкуУдаленияРасширеннаяПодсказка" id="43"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Должности</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
