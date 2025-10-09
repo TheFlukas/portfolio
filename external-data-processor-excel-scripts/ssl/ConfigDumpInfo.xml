@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="Catalog.Продукция" id="c7ac2c4e-cf3a-448a-aa7e-4049d7dd446c" configVersion="7fc01501fe943042ad40ebcdf2dd611d00000000">
+			<Metadata name="Catalog.Продукция.Attribute.МинимальнаяСтоимостьДляПартнера" id="5157b5dd-c9e5-4115-b979-3238cd9fb486"/>
+			<Metadata name="Catalog.Продукция.Attribute.ОсновнойМатериал" id="781b6930-2eb2-4fbb-a4ad-37900d04e021"/>
+			<Metadata name="Catalog.Продукция.Attribute.Артикул" id="b587191f-45d1-4e05-adea-b05074ab83db"/>
+			<Metadata name="Catalog.Продукция.Attribute.ВремяИзготовления" id="e3cdca6e-c68e-48e2-b385-706eb3d76d4b"/>
+			<Metadata name="Catalog.Продукция.Attribute.ТипПродукции" id="ece157a2-f33a-4603-af34-ec5d850711b3"/>
+		</Metadata>
+		<Metadata name="Catalog.Продукция.Form.ФормаВыбора" id="b35f1fce-b7a9-4b36-b198-0c9b5e560f56" configVersion="0f5264c998ef984bad6c86023a833ae200000000"/>
+		<Metadata name="Catalog.Продукция.Form.ФормаВыбора.Form" id="b35f1fce-b7a9-4b36-b198-0c9b5e560f56.0" configVersion="d6fd6bdd1f0479409d32e48c2ced648500000000"/>
+		<Metadata name="Catalog.Продукция.Form.ФормаСписка" id="e6662191-ae9e-4da3-ac5e-3ec3f8d32ea4" configVersion="edc270d2c16cdf448ea33d89c925ad0b00000000"/>
+		<Metadata name="Catalog.Продукция.Form.ФормаСписка.Form" id="e6662191-ae9e-4da3-ac5e-3ec3f8d32ea4.0" configVersion="0e04bdf7b9aa394585b66bcef320c34800000000"/>
+		<Metadata name="Catalog.Продукция.Form.ФормаЭлемента" id="ab573cd1-29f6-455d-b992-09d353830316" configVersion="9ddc965a803e6f46a77b3ae3d583ddb700000000"/>
+		<Metadata name="Catalog.Продукция.Form.ФормаЭлемента.Form" id="ab573cd1-29f6-455d-b992-09d353830316.0" configVersion="63ef9e6004c2fb49adedb6f6cd6ca70f00000000"/>
+		<Metadata name="Catalog.Продукция.ManagerModule" id="c7ac2c4e-cf3a-448a-aa7e-4049d7dd446c.3" configVersion="8ec86eb27e1a4e4e91a876ceb085266b00000000"/>
+		<Metadata name="Catalog.ТипыМатериалов" id="85bd3a4d-441d-469a-94a1-4e7684f2fc36" configVersion="9580709fa9021244b5c327963396cba600000000">
+			<Metadata name="Catalog.ТипыМатериалов.Attribute.ПроцентПотерьСырья" id="f8f806be-724f-4222-aa47-38b02e58916a"/>
+		</Metadata>
+		<Metadata name="Catalog.ТипыМатериалов.Form.ФормаВыбора" id="a6cfd506-46c1-4477-a1d8-5fccf2918547" configVersion="b9e006feeaf4384188444292afe6110300000000"/>
+		<Metadata name="Catalog.ТипыМатериалов.Form.ФормаВыбора.Form" id="a6cfd506-46c1-4477-a1d8-5fccf2918547.0" configVersion="e0496b3c0f17044ab24e8658185d7ad800000000"/>
+		<Metadata name="Catalog.ТипыМатериалов.Form.ФормаСписка" id="645358c2-3e57-4510-b475-37f526a6649a" configVersion="57c819c30b1d0c4ab8b408a840845c7400000000"/>
+		<Metadata name="Catalog.ТипыМатериалов.Form.ФормаСписка.Form" id="645358c2-3e57-4510-b475-37f526a6649a.0" configVersion="a60e91c8f0930a40a7506bea4b32a14200000000"/>
+		<Metadata name="Catalog.ТипыМатериалов.Form.ФормаЭлемента" id="5000cb7a-de5a-464d-8a7b-01e7d5af02b8" configVersion="988cde36bc81764b96a2cf6ac740aaa900000000"/>
+		<Metadata name="Catalog.ТипыМатериалов.Form.ФормаЭлемента.Form" id="5000cb7a-de5a-464d-8a7b-01e7d5af02b8.0" configVersion="599ff03e0f07ce4d8d9433ff57207dd000000000"/>
+		<Metadata name="Catalog.ТипыПродукции" id="1b3227ae-bbbd-493a-97b1-7043e1cf317b" configVersion="0b8563f521343f459bd02222715df26d00000000">
+			<Metadata name="Catalog.ТипыПродукции.Attribute.КоэффициентТипаПродукции" id="53c3fdf7-571d-4cfd-bf47-5be26f4e5755"/>
+		</Metadata>
+		<Metadata name="Catalog.ТипыПродукции.Form.ФормаВыбора" id="d841813c-84b4-4316-98ea-3b195e663a41" configVersion="f108c30b612f7345adb95db1d874e3e900000000"/>
+		<Metadata name="Catalog.ТипыПродукции.Form.ФормаВыбора.Form" id="d841813c-84b4-4316-98ea-3b195e663a41.0" configVersion="33cf369865456949a16e5c4fb6aeed0d00000000"/>
+		<Metadata name="Catalog.ТипыПродукции.Form.ФормаСписка" id="55969cce-f0b0-4aef-a379-4877326a8616" configVersion="664c02177942d54998d46f203fe0bf6400000000"/>
+		<Metadata name="Catalog.ТипыПродукции.Form.ФормаСписка.Form" id="55969cce-f0b0-4aef-a379-4877326a8616.0" configVersion="677a635da13ad947a468442360d2e8b000000000"/>
+		<Metadata name="Catalog.ТипыПродукции.Form.ФормаЭлемента" id="aac97cf2-3f68-4b43-a6b1-13886dd30cb1" configVersion="f6c07f48591aee43a2648e67d4f0544100000000"/>
+		<Metadata name="Catalog.ТипыПродукции.Form.ФормаЭлемента.Form" id="aac97cf2-3f68-4b43-a6b1-13886dd30cb1.0" configVersion="6d59338206b5704a985a3df432fb842f00000000"/>
+		<Metadata name="Catalog.Цехи" id="97f04079-6079-4826-984c-c11d6bf92170" configVersion="017910340cee8b45a3f4d5daa1ff908a00000000">
+			<Metadata name="Catalog.Цехи.Attribute.КоличествоЧеловекДляПроизводства" id="5944cbec-20c2-475e-957a-a08cbf7611d4"/>
+			<Metadata name="Catalog.Цехи.Attribute.ТипЦеха" id="681c9b5f-c4a4-4fed-8e8c-f765a16cefc9"/>
+		</Metadata>
+		<Metadata name="Catalog.Цехи.Form.ФормаВыбора" id="0fd2673f-f191-42f4-9ab3-1586e2d3aac3" configVersion="23ffa852b801bc409b0f29b5268d0b5600000000"/>
+		<Metadata name="Catalog.Цехи.Form.ФормаВыбора.Form" id="0fd2673f-f191-42f4-9ab3-1586e2d3aac3.0" configVersion="60ff1b85337195499416949721262c5f00000000"/>
+		<Metadata name="Catalog.Цехи.Form.ФормаСписка" id="d4036c6a-ffe1-4db6-b6d1-e2d38df6fb8f" configVersion="08b9e0713166c94a844c82717a7f2d3300000000"/>
+		<Metadata name="Catalog.Цехи.Form.ФормаСписка.Form" id="d4036c6a-ffe1-4db6-b6d1-e2d38df6fb8f.0" configVersion="7dd9816f26e47f48aedbd4f0b9de600800000000"/>
+		<Metadata name="Catalog.Цехи.Form.ФормаЭлемента" id="8fc51c8d-fee3-49ed-97a9-a9233fc65ec0" configVersion="1da3d19988b3e747b851de12554530b800000000"/>
+		<Metadata name="Catalog.Цехи.Form.ФормаЭлемента.Form" id="8fc51c8d-fee3-49ed-97a9-a9233fc65ec0.0" configVersion="1d2d7f26e0920848ac97aeb1b0e608cc00000000"/>
+		<Metadata name="CommonForm.ФормаРабочегоСтола" id="2ed4bb0a-bab4-45d7-8ce6-b1db26167a54" configVersion="13ee975c50f79445be998f317460e63700000000"/>
+		<Metadata name="CommonForm.ФормаРабочегоСтола.Form" id="2ed4bb0a-bab4-45d7-8ce6-b1db26167a54.0" configVersion="fe9310dd71b70a4f88a50ed6ba63fcbf00000000"/>
+		<Metadata name="CommonModule.ФункцииПроизводства" id="08642e05-7882-4882-885f-26ac1b34efdc" configVersion="745b89999c4b2c4e849399eba8de594300000000"/>
+		<Metadata name="CommonModule.ФункцииПроизводства.Module" id="08642e05-7882-4882-885f-26ac1b34efdc.0" configVersion="55288411f8023d49be9ee4812262a63600000000"/>
+		<Metadata name="CommonPicture.Лого" id="1f9df611-11da-41ec-9e7a-c50dd810ca32" configVersion="6b88f427781add48a82de158333d073e00000000"/>
+		<Metadata name="CommonPicture.Лого.Picture" id="1f9df611-11da-41ec-9e7a-c50dd810ca32.0" configVersion="f0419d585f7201468554f88ced9a499700000000"/>
+		<Metadata name="Configuration.МебельнаяКомпанияКомфорт" id="36c8fd98-5ba3-4678-b0bd-93b639659f44" configVersion="2e57835d89e54d419fdc9b483e24d29400000000"/>
+		<Metadata name="Configuration.МебельнаяКомпанияКомфорт.HomePageWorkArea" id="6e2908f9-211f-4a0f-aa26-73ff6babb436.8" configVersion="2665df05c8e43d4590ead5c4cbad384900000000"/>
+		<Metadata name="Configuration.МебельнаяКомпанияКомфорт.Logo" id="6e2908f9-211f-4a0f-aa26-73ff6babb436.1" configVersion="1a2bf79a72ab244a9bffdb21a9965f5400000000"/>
+		<Metadata name="Configuration.МебельнаяКомпанияКомфорт.MainSectionCommandInterface" id="6e2908f9-211f-4a0f-aa26-73ff6babb436.9" configVersion="a3016922a3278b4692d32818caa4e9dd00000000"/>
+		<Metadata name="DataProcessor.ИмпортДанныхИзExcel" id="ff6c86d7-bb9d-48e1-b1c3-e488f3d99ee5" configVersion="44bc77d476bfc24e9d2b5a73b04c9bb100000000"/>
+		<Metadata name="DataProcessor.ИмпортДанныхИзExcel.Form.Форма" id="cc4c98af-0993-4dc1-9b5a-abdbc399ab99" configVersion="eb33549c7962bf42a7a740f65529e3d200000000"/>
+		<Metadata name="DataProcessor.ИмпортДанныхИзExcel.Form.Форма.Form" id="cc4c98af-0993-4dc1-9b5a-abdbc399ab99.0" configVersion="f16bed666c3fde469ad2bb065f9f250f00000000"/>
+		<Metadata name="DataProcessor.ПолучениеСпискаЦехов" id="5c59f082-27c0-49bd-a032-d250aea9dbcd" configVersion="889cd5c61c930e4c85e260658f27ae6b00000000"/>
+		<Metadata name="DataProcessor.ПолучениеСпискаЦехов.Form.Форма" id="dbe80f50-e9d8-4ce9-9a68-2b04fba96599" configVersion="46c864d66403e24c9697a96965b5a5fa00000000"/>
+		<Metadata name="DataProcessor.ПолучениеСпискаЦехов.Form.Форма.Form" id="dbe80f50-e9d8-4ce9-9a68-2b04fba96599.0" configVersion="f0f6d1795226a74ba3af56671f7c870600000000"/>
+		<Metadata name="DataProcessor.РасчетСырья" id="0f6a749c-f307-4840-b0a6-121b09f92aec" configVersion="b13d11a7837ace43bbf6cf041784b29a00000000">
+			<Metadata name="DataProcessor.РасчетСырья.Attribute.ТипМатериала" id="2f4d279f-3a80-41cc-b503-81f29c7a3465"/>
+			<Metadata name="DataProcessor.РасчетСырья.Attribute.ТипПродукции" id="37e7b7a4-b871-467b-afff-7ae6f63a63c4"/>
+			<Metadata name="DataProcessor.РасчетСырья.Attribute.КоличествоСырья" id="713fc341-2dd9-415a-a049-c432ba53e8a9"/>
+			<Metadata name="DataProcessor.РасчетСырья.Attribute.Ширина" id="b0568388-e06d-4c73-a9fd-8f53e2875247"/>
+			<Metadata name="DataProcessor.РасчетСырья.Attribute.КоличествоПродукции" id="dcefd004-263f-41ce-b82f-dd868ebcfe9f"/>
+			<Metadata name="DataProcessor.РасчетСырья.Attribute.Длина" id="f18bcfdc-c190-4bb6-b1bf-c70bd8c3f22e"/>
+		</Metadata>
+		<Metadata name="DataProcessor.РасчетСырья.Form.Форма" id="bef6e3d4-13d3-4d55-aae4-94fcf1709bb3" configVersion="a73dc8c428755841bfd7fe20086ecab900000000"/>
+		<Metadata name="DataProcessor.РасчетСырья.Form.Форма.Form" id="bef6e3d4-13d3-4d55-aae4-94fcf1709bb3.0" configVersion="32d0ffa197b15c4ca785f047fd90d14500000000"/>
+		<Metadata name="Document.Производство" id="3d150bbc-d473-4175-b27c-50e7cc154eff" configVersion="15c05a8e48e7d54fb1e77a4189eac67200000000">
+			<Metadata name="Document.Производство.Attribute.Продукт" id="34373f06-abf7-4bd6-9863-e1b838ca4e23"/>
+			<Metadata name="Document.Производство.Attribute.ВремяИзготовления" id="399e3ea9-f0ee-4c0b-9a75-315578b54f4e"/>
+			<Metadata name="Document.Производство.Attribute.Цех" id="8c32cd8d-6dbb-4cd9-aabf-2d7d48c4ce86"/>
+		</Metadata>
+		<Metadata name="Document.Производство.Form.ФормаВыбора" id="6a767709-ed07-4e35-910d-2dd573855dd5" configVersion="b3200eaf466fd34bb13e258db53e641200000000"/>
+		<Metadata name="Document.Производство.Form.ФормаВыбора.Form" id="6a767709-ed07-4e35-910d-2dd573855dd5.0" configVersion="2eff728a1806d74287089fd624b09fea00000000"/>
+		<Metadata name="Document.Производство.Form.ФормаДокумента" id="002039ba-cbb9-4984-8ba0-f011dc89f438" configVersion="aaed358a747e504c98dabac19153317d00000000"/>
+		<Metadata name="Document.Производство.Form.ФормаДокумента.Form" id="002039ba-cbb9-4984-8ba0-f011dc89f438.0" configVersion="5b83b9972b0bdb4fab0e5d854ec67ad700000000"/>
+		<Metadata name="Document.Производство.Form.ФормаСписка" id="136ae393-d3b4-4cff-9c70-7db4bf5403c2" configVersion="a2afde9c0ecea14fbfa267eac6588b9c00000000"/>
+		<Metadata name="Document.Производство.Form.ФормаСписка.Form" id="136ae393-d3b4-4cff-9c70-7db4bf5403c2.0" configVersion="22b9fc188d65524eb30f751089c15e0300000000"/>
+		<Metadata name="Document.Производство.ObjectModule" id="3d150bbc-d473-4175-b27c-50e7cc154eff.0" configVersion="427e0c6d9a7383459a44148466e692eb00000000"/>
+		<Metadata name="Enum.ТипыЦехов" id="5e1931c2-f9a2-422a-a015-15dd3bd9dd67" configVersion="52bbbea8bfdb8c41988adead5763bdd400000000">
+			<Metadata name="Enum.ТипыЦехов.EnumValue.Сборка" id="531941ab-46c7-41da-ac21-377a4dfefbf8"/>
+			<Metadata name="Enum.ТипыЦехов.EnumValue.Проектирование" id="98fcca76-46c1-4502-8a1d-edf438403ad9"/>
+			<Metadata name="Enum.ТипыЦехов.EnumValue.Обработка" id="e8b9efa6-e070-4ef0-ada6-de2811604e12"/>
+			<Metadata name="Enum.ТипыЦехов.EnumValue.Сушка" id="f1a916bb-e4ab-436c-ad8c-79fefc04c4ff"/>
+		</Metadata>
+		<Metadata name="EventSubscription.ОбновлениеВремениИзготовленияПродукции" id="d722d35e-e601-4e3d-b7e9-74a6a94c0d29" configVersion="7b66d8237de32d4d8d4c299b08d7be8600000000"/>
+		<Metadata name="InformationRegister.ВремяИзготовленияПродукции" id="dcbe39e0-fb2f-4e9f-ade9-2cec3510883a" configVersion="bb90140e74126149af56caebb2011fca00000000">
+			<Metadata name="InformationRegister.ВремяИзготовленияПродукции.Resource.Время" id="57406f91-d4ea-417d-90a8-1f12da439a8b"/>
+			<Metadata name="InformationRegister.ВремяИзготовленияПродукции.Dimension.Цех" id="86ac3580-2b44-4ed6-88ab-402e4586bdbf"/>
+			<Metadata name="InformationRegister.ВремяИзготовленияПродукции.Dimension.Продукция" id="a808f118-997f-4195-9b22-7d6d74cbae09"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="386642c8-bfbb-437a-a2e3-5f91936db904" configVersion="812d1ac3ab925c42b1439705a2c64b2d00000000"/>
+		<Metadata name="Style.ОсновнойСтиль" id="6608950b-2dc9-4d6e-af60-40d8275006c3" configVersion="c0159fdae4f44f41a0fb85f4d5a2200a00000000"/>
+		<Metadata name="Style.ОсновнойСтиль.Style" id="6608950b-2dc9-4d6e-af60-40d8275006c3.0" configVersion="2bbd75df5d4b4e4b9fd33ea66c8da09600000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

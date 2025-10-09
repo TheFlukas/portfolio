@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="ТипПродукции" id="3">
+			<DataPath>Объект.ТипПродукции</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТипПродукцииКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="ТипПродукцииРасширеннаяПодсказка" id="5"/>
+			<SelectedItemsActionsPanel name="ТипПродукцииПанельДействийВыделенныхСтрок" id="21"/>
+		</InputField>
+		<InputField name="ТипМатериала" id="6">
+			<DataPath>Объект.ТипМатериала</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТипМатериалаКонтекстноеМеню" id="7"/>
+			<ExtendedTooltip name="ТипМатериалаРасширеннаяПодсказка" id="8"/>
+			<SelectedItemsActionsPanel name="ТипМатериалаПанельДействийВыделенныхСтрок" id="22"/>
+		</InputField>
+		<InputField name="Ширина" id="15">
+			<DataPath>Объект.Ширина</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ШиринаКонтекстноеМеню" id="16"/>
+			<ExtendedTooltip name="ШиринаРасширеннаяПодсказка" id="17"/>
+			<SelectedItemsActionsPanel name="ШиринаПанельДействийВыделенныхСтрок" id="23"/>
+		</InputField>
+		<InputField name="Длина" id="18">
+			<DataPath>Объект.Длина</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДлинаКонтекстноеМеню" id="19"/>
+			<ExtendedTooltip name="ДлинаРасширеннаяПодсказка" id="20"/>
+			<SelectedItemsActionsPanel name="ДлинаПанельДействийВыделенныхСтрок" id="24"/>
+		</InputField>
+		<InputField name="КоличествоПродукции" id="9">
+			<DataPath>Объект.КоличествоПродукции</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КоличествоПродукцииКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="КоличествоПродукцииРасширеннаяПодсказка" id="11"/>
+			<SelectedItemsActionsPanel name="КоличествоПродукцииПанельДействийВыделенныхСтрок" id="25"/>
+		</InputField>
+		<Button name="РасчитатьКоличествоСырья" id="1">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.РасчитатьКоличествоСырья</CommandName>
+			<ExtendedTooltip name="РасчитатьКоличествоСырьяРасширеннаяПодсказка" id="2"/>
+		</Button>
+		<LabelField name="КоличествоСырья" id="12">
+			<DataPath>Объект.КоличествоСырья</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество сырья необходимо</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="КоличествоСырьяКонтекстноеМеню" id="13"/>
+			<ExtendedTooltip name="КоличествоСырьяРасширеннаяПодсказка" id="14"/>
+			<SelectedItemsActionsPanel name="КоличествоСырьяПанельДействийВыделенныхСтрок" id="26"/>
+		</LabelField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.РасчетСырья</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="РасчитатьКоличествоСырья" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расчитать количество сырья</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расчитать количество сырья</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РасчитатьКоличествоСырья</Action>
+		</Command>
+	</Commands>
+</Form>
