@@ -70,10 +70,12 @@ ER-схема базы:
 ---
 
 ## 💾 Архив конфигурации
-- [meat-plant.dt](https://drive.google.com/file/d/1kRaQfTXUGJ8fQOSLyVyhe2X6yjXPlhTg/view?usp=drive_link)
+- [meat-plant.dt](https://drive.google.com/file/d/1kRaQfTXUGJ8fQOSLyVyhe2X6yjXPlhTg/view?usp=drive_link) — резервная копия базы
 
 ---
 
 ## 🔗 Автор
 **Ермолаев Глеб**  
 GitHub: [TheFlukas](https://github.com/TheFlukas)
+
+---

@@ -117,9 +117,8 @@
 
 ---
 
-## 📦 Архив базы
-
-- [Файл конфигурации и базы itspa1.0.1.1.dt](https://drive.google.com/file/d/17GCRqYtWXgfLXAikRSPFQibNDeqRwwO5/view?usp=drive_link)
+## 💾 Архив конфигурации
+- [itspa1.0.1.1.dt](https://drive.google.com/file/d/17GCRqYtWXgfLXAikRSPFQibNDeqRwwO5/view?usp=drive_link) — резервная копия базы
 
 ---
 
@@ -156,4 +155,3 @@
 GitHub: [TheFlukas](https://github.com/TheFlukas)
 
 ---
-

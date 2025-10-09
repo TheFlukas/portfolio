@@ -85,9 +85,8 @@
 
 ---
 
-## 📦 Архив базы
-
-- [Файл базы doors_factory1.0.dt](https://drive.google.com/file/d/1kIznIprndelVph9PQiypPvxPcmlNQzb6/view?usp=drive_link)  
+## 💾 Архив конфигурации
+- [doors_factory1.0.dt](https://drive.google.com/file/d/1kIznIprndelVph9PQiypPvxPcmlNQzb6/view?usp=drive_link) — резервная копия базы  
 
 ---
 
@@ -95,3 +94,4 @@
 **Ермолаев Глеб**  
 GitHub: [TheFlukas](https://github.com/TheFlukas)
 
+---

@@ -71,12 +71,13 @@
 
 ---
 
-## 📦 Архив обработки
-
-- [Файл базы data_processors_excel_sorting_calculation.dt](https://drive.google.com/file/d/16F_IkIucREoaXmZCfJkEQdmeuq2YySAv/view?usp=drive_link)
+## 💾 Архив конфигурации
+- [data_processors_excel_sorting_calculation.dt](https://drive.google.com/file/d/16F_IkIucREoaXmZCfJkEQdmeuq2YySAv/view?usp=drive_link) — резервная копия базы 
 
 ---
 
 ## 🔗 Автор
 **Ермолаев Глеб**  
 GitHub: [TheFlukas](https://github.com/TheFlukas)
+
+---

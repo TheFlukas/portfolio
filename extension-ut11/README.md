@@ -159,7 +159,7 @@
 ## 💾 Архив конфигурации
 - [ТестовоеРасширение.cfe](archive_base/Test_extension.cfe)
 - [ИТ_ПояснительныеЗапискиЗаДень.erf](IT_Explanatory_notes_for_one_day.erf)
-- [УТ11.5.17.219.dt](https://drive.google.com/file/d/1MLI87riPJ5bqdPQMnUKnqdRMt6LB2PPN/view?usp=drive_link) — резервная копия базы.
+- [УТ11.5.17.219.dt](https://drive.google.com/file/d/1MLI87riPJ5bqdPQMnUKnqdRMt6LB2PPN/view?usp=drive_link) — резервная копия базы
 
 ---
 

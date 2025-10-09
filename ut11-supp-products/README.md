@@ -101,7 +101,7 @@
 
 ## 💾 Архив конфигурации
 - [ВедомостьПоСопутствующимТоварам.erf](archive_base/Statement_of_related_goods.erf)
-- [УТ11.5.11.70.dt](https://drive.google.com/file/d/1mBSautR3pTfcJy6Juqw-pyfDSafoyrpx/view?usp=drive_link) — резервная копия базы.
+- [УТ11.5.11.70.dt](https://drive.google.com/file/d/1mBSautR3pTfcJy6Juqw-pyfDSafoyrpx/view?usp=drive_link) — резервная копия базы
 
 ---
 
