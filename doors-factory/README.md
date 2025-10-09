@@ -89,3 +89,9 @@
 
 - [Файл базы doors_factory1.0.dt](https://drive.google.com/file/d/1kIznIprndelVph9PQiypPvxPcmlNQzb6/view?usp=drive_link)  
 
+---
+
+## 🔗 Автор
+**Ермолаев Глеб**  
+GitHub: [TheFlukas](https://github.com/TheFlukas)
+
