@@ -1,4 +1,8 @@
 # 💼 Портфолио проектов 1С
+![1C Developer](https://img.shields.io/badge/1C--Developer-orange?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-1C%3AEnterprise%208.3-6A5ACD?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-TheFlukas-black?logo=github&style=for-the-badge)
+
 
 Здесь собраны мои основные учебные и практические проекты, выполненные на платформе **1С:Предприятие 8.3**.  
 Каждый проект включает описание, скриншоты и листинги кода и выгрузку.
