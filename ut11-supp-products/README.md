@@ -91,11 +91,11 @@
 
 ## 🧾 Листинги кода
 
-- (listing/Document_purchase_of_goods_and_services_form_module_code_listing_1.png)
-- (listing/Document_purchase_of_goods_and_services_form_module_code_listing_2.png)  
-- (listing/Document_purchase_of_goods_and_services_manager_module_code_listing.png)  
-- (listing/Document_sale_of_goods_and_services_object_module_code_listing.png)  
-- (listing/Document_adjustment_of_related_goods_for_equipment_form_module_code_listing.png)   
+- [Document_purchase_of_goods_and_services_form_module_code_listing_1.png](listing/Document_purchase_of_goods_and_services_form_module_code_listing_1.png)
+- [Document_purchase_of_goods_and_services_form_module_code_listing_2.png](listing/Document_purchase_of_goods_and_services_form_module_code_listing_2.png)  
+- [Document_purchase_of_goods_and_services_manager_module_code_listing.png](listing/Document_purchase_of_goods_and_services_manager_module_code_listing.png)  
+- [Document_sale_of_goods_and_services_object_module_code_listing.png](listing/Document_sale_of_goods_and_services_object_module_code_listing.png)  
+- [Document_adjustment_of_related_goods_for_equipment_form_module_code_listing.png](listing/Document_adjustment_of_related_goods_for_equipment_form_module_code_listing.png)   
 
 ---
 
