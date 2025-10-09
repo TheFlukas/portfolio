@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="fee9c0b3-2082-4e2d-b501-70c96cd8f260">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ГрафикиРаботы" category="Ref">
+				<xr:TypeId>3bd80e29-c83d-4eb5-ad99-5ba5138443c6</xr:TypeId>
+				<xr:ValueId>b884317b-1d39-425b-ba73-aad69cbbeabf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ГрафикиРаботы" category="Manager">
+				<xr:TypeId>7f9c3a89-8040-45c9-8720-1edaa9a5910c</xr:TypeId>
+				<xr:ValueId>a54e41a9-82a1-482f-9f9f-8a0e50fa8688</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ГрафикиРаботы" category="List">
+				<xr:TypeId>b8d3c5ad-5018-4fc2-8bcb-5fcdfddaa900</xr:TypeId>
+				<xr:ValueId>9d269236-e9cd-4351-ac3f-8203e7379b6c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГрафикиРаботы</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Графики работы</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="05d831da-7ff1-4340-8e15-f76ba45d3da7">
+				<Properties>
+					<Name>ПолныйРабочийДень</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Полный рабочий день</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>8 часов</Comment>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0ab090a2-4f63-45a6-8b82-a3edfb5e0c76">
+				<Properties>
+					<Name>СменныйГрафик</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сменный график</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>12-часовые смены</Comment>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a53d3cc7-41ab-461a-acab-6b5741a21202">
+				<Properties>
+					<Name>ГибкийГрафик</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гибкий график</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Индивидуально</Comment>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="eecdaf33-8236-4826-b311-910493c76787">
+				<Properties>
+					<Name>НеполныйРабочийДень</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Неполный рабочий день</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>4-6 часов</Comment>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="dc274ea3-a2a4-4e66-b82e-01d7f2f66c5f">
+				<Properties>
+					<Name>УдаленнаяРабота</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Удаленная работа</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Работа из дома, без фиксированного графика</Comment>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e52859f2-76ca-40c4-a1f6-f239d617e2b6">
+				<Properties>
+					<Name>Выходной</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выходной</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Нерегулярный график</Comment>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Width>95</Width>
+	<Height>21</Height>
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Popup name="Страницы" id="14">
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Страницы</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="15"/>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="СтраницыЖурнала" id="16">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы журнала</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СтраницыЖурналаРасширеннаяПодсказка" id="17"/>
+			<ChildItems>
+				<Page name="СтраницаКалендаря" id="18">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Календарь</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница календаря</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<BackColor>#FF9699</BackColor>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаКалендаряРасширеннаяПодсказка" id="19"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаПланировщикаСПанелью" id="4">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа планировщика с панелью</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа планировщика с панелью</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>HorizontalIfPossible</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПланировщикаСПанельюРасширеннаяПодсказка" id="5"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаПанель" id="6">
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа панель</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Width>30</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Group>HorizontalIfPossible</Group>
+									<Representation>WeakSeparation</Representation>
+									<ExtendedTooltip name="ГруппаПанельРасширеннаяПодсказка" id="7"/>
+									<ChildItems>
+										<InputField name="Ресторан" id="11">
+											<DataPath>Ресторан</DataPath>
+											<TitleLocation>Top</TitleLocation>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<InputHint>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Выберите ресторан</v8:content>
+												</v8:item>
+											</InputHint>
+											<ContextMenu name="РесторанКонтекстноеМеню" id="12"/>
+											<ExtendedTooltip name="РесторанРасширеннаяПодсказка" id="13"/>
+											<SelectedItemsActionsPanel name="РесторанПанельДействийВыделенныхСтрок" id="82"/>
+											<Events>
+												<Event name="OnChange">РесторанПриИзменении</Event>
+											</Events>
+										</InputField>
+										<CalendarField name="Дата" id="8">
+											<DataPath>Дата</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<VerticalStretch>false</VerticalStretch>
+											<ContextMenu name="ДатаКонтекстноеМеню" id="9"/>
+											<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="10"/>
+											<SelectedItemsActionsPanel name="ДатаПанельДействийВыделенныхСтрок" id="83"/>
+											<Events>
+												<Event name="OnChange">ДатаПриИзменении</Event>
+											</Events>
+										</CalendarField>
+									</ChildItems>
+								</UsualGroup>
+								<PlannerField name="Планировщик" id="1">
+									<DataPath>Планировщик</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<Width>57</Width>
+									<Height>15</Height>
+									<ContextMenu name="ПланировщикКонтекстноеМеню" id="2"/>
+									<ExtendedTooltip name="ПланировщикРасширеннаяПодсказка" id="3"/>
+									<SelectedItemsActionsPanel name="ПланировщикПанельДействийВыделенныхСтрок" id="84"/>
+									<Events>
+										<Event name="BeforeCreate">ПланировщикПередСозданием</Event>
+										<Event name="OnEditEnd">ПланировщикПриОкончанииРедактирования</Event>
+										<Event name="BeforeDelete">ПланировщикПередУдалением</Event>
+										<Event name="BeforeStartEdit">ПланировщикПередНачаломРедактирования</Event>
+									</Events>
+								</PlannerField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаСписка" id="20">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список заявок</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница списка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<BackColor>#FFCC99</BackColor>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаСпискаРасширеннаяПодсказка" id="21"/>
+					<ChildItems>
+						<Table name="Список" id="22">
+							<RowSelectionMode>Cell</RowSelectionMode>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>Список</DataPath>
+							<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="СписокКонтекстноеМеню" id="23"/>
+							<AutoCommandBar name="СписокКоманднаяПанель" id="24"/>
+							<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="25"/>
+							<SearchStringAddition name="СписокСтрокаПоиска" id="26">
+								<AdditionSource>
+									<Item>Список</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="27"/>
+								<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="28"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокСостояниеПросмотра" id="29">
+								<AdditionSource>
+									<Item>Список</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="30"/>
+								<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="31"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокУправлениеПоиском" id="32">
+								<AdditionSource>
+									<Item>Список</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="33"/>
+								<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="34"/>
+							</SearchControlAddition>
+							<SelectedItemsActionsPanel name="СписокПанельДействийВыделенныхСтрок" id="85"/>
+							<ChildItems>
+								<LabelField name="СписокНомер" id="38">
+									<DataPath>Список.Number</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Заказ #</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СписокНомерКонтекстноеМеню" id="39"/>
+									<ExtendedTooltip name="СписокНомерРасширеннаяПодсказка" id="40"/>
+									<SelectedItemsActionsPanel name="СписокНомерПанельДействийВыделенныхСтрок" id="86"/>
+								</LabelField>
+								<ColumnGroup name="СписокГруппа1" id="80">
+									<Group>InCell</Group>
+									<ExtendedTooltip name="СписокГруппа1РасширеннаяПодсказка" id="81"/>
+									<ChildItems>
+										<LabelField name="СписокКлиент" id="59">
+											<DataPath>Список.Клиент</DataPath>
+											<ContextMenu name="СписокКлиентКонтекстноеМеню" id="60"/>
+											<ExtendedTooltip name="СписокКлиентРасширеннаяПодсказка" id="61"/>
+											<SelectedItemsActionsPanel name="СписокКлиентПанельДействийВыделенныхСтрок" id="87"/>
+										</LabelField>
+										<LabelField name="СписокКлиентТелефон" id="77">
+											<DataPath>Список.Клиент.Телефон</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<Width>10</Width>
+											<ContextMenu name="СписокКлиентТелефонКонтекстноеМеню" id="78"/>
+											<ExtendedTooltip name="СписокКлиентТелефонРасширеннаяПодсказка" id="79"/>
+											<SelectedItemsActionsPanel name="СписокКлиентТелефонПанельДействийВыделенныхСтрок" id="88"/>
+										</LabelField>
+									</ChildItems>
+								</ColumnGroup>
+								<CheckBoxField name="СписокВажность" id="68">
+									<DataPath>Список.Важность</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Важный заказ</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HeaderPicture>
+										<xr:Ref>StdPicture.AppearanceCheckBox</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</HeaderPicture>
+									<ContextMenu name="СписокВажностьКонтекстноеМеню" id="69"/>
+									<ExtendedTooltip name="СписокВажностьРасширеннаяПодсказка" id="70"/>
+									<SelectedItemsActionsPanel name="СписокВажностьПанельДействийВыделенныхСтрок" id="89"/>
+								</CheckBoxField>
+								<LabelField name="СписокДата" id="35">
+									<DataPath>Список.Date</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата</v8:content>
+										</v8:item>
+									</Title>
+									<Width>8</Width>
+									<Format>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ДФ=dd.MM.yyyy</v8:content>
+										</v8:item>
+									</Format>
+									<ContextMenu name="СписокДатаКонтекстноеМеню" id="36"/>
+									<ExtendedTooltip name="СписокДатаРасширеннаяПодсказка" id="37"/>
+									<SelectedItemsActionsPanel name="СписокДатаПанельДействийВыделенныхСтрок" id="90"/>
+								</LabelField>
+								<LabelField name="ДатаВремяНачала" id="71">
+									<DataPath>Список.Date</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Время начала</v8:content>
+										</v8:item>
+									</Title>
+									<Width>5</Width>
+									<Format>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ДФ=ЧЧ:мм</v8:content>
+										</v8:item>
+									</Format>
+									<ContextMenu name="ДатаВремяНачалаКонтекстноеМеню" id="72"/>
+									<ExtendedTooltip name="ДатаВремяНачалаРасширеннаяПодсказка" id="73"/>
+									<SelectedItemsActionsPanel name="ДатаВремяНачалаПанельДействийВыделенныхСтрок" id="91"/>
+								</LabelField>
+								<LabelField name="ДатаВремяОкончания" id="74">
+									<DataPath>Список.ДатаОкончания</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Время окончания</v8:content>
+										</v8:item>
+									</Title>
+									<Width>5</Width>
+									<Format>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ДФ=ЧЧ:мм</v8:content>
+										</v8:item>
+									</Format>
+									<ContextMenu name="ДатаВремяОкончанияКонтекстноеМеню" id="75"/>
+									<ExtendedTooltip name="ДатаВремяОкончанияРасширеннаяПодсказка" id="76"/>
+									<SelectedItemsActionsPanel name="ДатаВремяОкончанияПанельДействийВыделенныхСтрок" id="92"/>
+								</LabelField>
+								<LabelField name="СписокРесторан" id="41">
+									<DataPath>Список.Ресторан</DataPath>
+									<Width>10</Width>
+									<ContextMenu name="СписокРесторанКонтекстноеМеню" id="42"/>
+									<ExtendedTooltip name="СписокРесторанРасширеннаяПодсказка" id="43"/>
+									<SelectedItemsActionsPanel name="СписокРесторанПанельДействийВыделенныхСтрок" id="93"/>
+								</LabelField>
+								<LabelField name="СписокСотрудник" id="62">
+									<DataPath>Список.Сотрудник</DataPath>
+									<ContextMenu name="СписокСотрудникКонтекстноеМеню" id="63"/>
+									<ExtendedTooltip name="СписокСотрудникРасширеннаяПодсказка" id="64"/>
+									<SelectedItemsActionsPanel name="СписокСотрудникПанельДействийВыделенныхСтрок" id="94"/>
+								</LabelField>
+								<LabelField name="СписокУслуга" id="44">
+									<DataPath>Список.Услуга</DataPath>
+									<ContextMenu name="СписокУслугаКонтекстноеМеню" id="45"/>
+									<ExtendedTooltip name="СписокУслугаРасширеннаяПодсказка" id="46"/>
+									<SelectedItemsActionsPanel name="СписокУслугаПанельДействийВыделенныхСтрок" id="95"/>
+								</LabelField>
+								<LabelField name="СписокСумма" id="50">
+									<DataPath>Список.Сумма</DataPath>
+									<ContextMenu name="СписокСуммаКонтекстноеМеню" id="51"/>
+									<ExtendedTooltip name="СписокСуммаРасширеннаяПодсказка" id="52"/>
+									<SelectedItemsActionsPanel name="СписокСуммаПанельДействийВыделенныхСтрок" id="96"/>
+								</LabelField>
+								<LabelField name="СписокСтол" id="56">
+									<DataPath>Список.Стол</DataPath>
+									<Width>6</Width>
+									<ContextMenu name="СписокСтолКонтекстноеМеню" id="57"/>
+									<ExtendedTooltip name="СписокСтолРасширеннаяПодсказка" id="58"/>
+									<SelectedItemsActionsPanel name="СписокСтолПанельДействийВыделенныхСтрок" id="97"/>
+								</LabelField>
+								<LabelField name="СписокКомментарий" id="53">
+									<DataPath>Список.Комментарий</DataPath>
+									<ContextMenu name="СписокКомментарийКонтекстноеМеню" id="54"/>
+									<ExtendedTooltip name="СписокКомментарийРасширеннаяПодсказка" id="55"/>
+									<SelectedItemsActionsPanel name="СписокКомментарийПанельДействийВыделенныхСтрок" id="98"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ЖурналЗаявок</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Дата" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Планировщик" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Планировщик</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:pl="http://v8.1c.ru/8.3/data/planner">pl:Planner</v8:Type>
+			</Type>
+			<Settings xmlns:pl="http://v8.1c.ru/8.3/data/planner" xsi:type="pl:Planner">
+				<pl:item>
+					<pl:value xsi:nil="true"/>
+					<pl:text>Встреча</pl:text>
+					<pl:tooltip/>
+					<pl:begin>2024-04-15T01:00:00</pl:begin>
+					<pl:end>2024-04-15T04:00:00</pl:end>
+					<pl:borderColor>auto</pl:borderColor>
+					<pl:backColor>auto</pl:backColor>
+					<pl:textColor>auto</pl:textColor>
+					<pl:font kind="AutoFont"/>
+					<pl:dimensionValues/>
+					<pl:replacementDate>0001-01-01T00:00:00</pl:replacementDate>
+					<pl:deleted>false</pl:deleted>
+					<pl:id>340cc641-dde1-42d9-a679-aadb0286f46f</pl:id>
+					<pl:textFormatted>false</pl:textFormatted>
+					<pl:border width="1">
+						<v8ui:style xsi:type="v8ui:ControlBorderType">Single</v8ui:style>
+					</pl:border>
+					<pl:editMode>EnableEdit</pl:editMode>
+				</pl:item>
+				<pl:borderColor>auto</pl:borderColor>
+				<pl:backColor>auto</pl:backColor>
+				<pl:textColor>auto</pl:textColor>
+				<pl:lineColor>auto</pl:lineColor>
+				<pl:font kind="AutoFont"/>
+				<pl:beginOfRepresentationPeriod>0001-01-01T00:00:00</pl:beginOfRepresentationPeriod>
+				<pl:endOfRepresentationPeriod>0001-01-01T00:00:00</pl:endOfRepresentationPeriod>
+				<pl:alignElementsOfTimeScale>true</pl:alignElementsOfTimeScale>
+				<pl:displayTimeScaleWrapHeaders>true</pl:displayTimeScaleWrapHeaders>
+				<pl:displayWrapHeaders>true</pl:displayWrapHeaders>
+				<pl:timeScaleWrapHeadersFormat>
+					<v8:item>
+						<v8:lang>#</v8:lang>
+						<v8:content>DLF="DD"</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>DLF="DD"</v8:content>
+					</v8:item>
+				</pl:timeScaleWrapHeadersFormat>
+				<pl:periodicVariantUnit>Day</pl:periodicVariantUnit>
+				<pl:periodicVariantRepetition>1</pl:periodicVariantRepetition>
+				<pl:timeScaleWrapBeginIndent>0</pl:timeScaleWrapBeginIndent>
+				<pl:timeScaleWrapEndIndent>0</pl:timeScaleWrapEndIndent>
+				<pl:timeScale>
+					<placement xmlns="http://v8.1c.ru/8.2/data/chart">Left</placement>
+					<level xmlns="http://v8.1c.ru/8.2/data/chart">
+						<measure>Hour</measure>
+						<interval>1</interval>
+						<show>false</show>
+						<line width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:ChartLineType">Solid</v8ui:style>
+						</line>
+						<scaleColor>auto</scaleColor>
+						<dayFormatRule>MonthDayWeekDay</dayFormatRule>
+						<format>
+							<v8:item>
+								<v8:lang>#</v8:lang>
+								<v8:content>DF="HH:mm"</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>DF="HH:mm"</v8:content>
+							</v8:item>
+						</format>
+						<labels>
+							<ticks>0</ticks>
+						</labels>
+						<backColor>auto</backColor>
+						<textColor>auto</textColor>
+						<showPereodicalLabels>true</showPereodicalLabels>
+					</level>
+					<level xmlns="http://v8.1c.ru/8.2/data/chart">
+						<measure>Minute</measure>
+						<interval>15</interval>
+						<show>true</show>
+						<line width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:ChartLineType">Dotted</v8ui:style>
+						</line>
+						<scaleColor>#C0C0C0</scaleColor>
+						<dayFormatRule>MonthDayWeekDay</dayFormatRule>
+						<format>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>DF="HH:mm"</v8:content>
+							</v8:item>
+						</format>
+						<labels>
+							<ticks>0</ticks>
+						</labels>
+						<backColor>auto</backColor>
+						<textColor>auto</textColor>
+						<showPereodicalLabels>true</showPereodicalLabels>
+					</level>
+					<transparent xmlns="http://v8.1c.ru/8.2/data/chart">false</transparent>
+					<backColor xmlns="http://v8.1c.ru/8.2/data/chart">auto</backColor>
+					<textColor xmlns="http://v8.1c.ru/8.2/data/chart">auto</textColor>
+					<currentLevel xmlns="http://v8.1c.ru/8.2/data/chart">0</currentLevel>
+				</pl:timeScale>
+				<pl:period>
+					<pl:begin>2025-10-09T00:00:00</pl:begin>
+					<pl:end>2025-10-09T23:59:59</pl:end>
+				</pl:period>
+				<pl:displayCurrentDate>true</pl:displayCurrentDate>
+				<pl:itemsTimeRepresentation>BeginAndEndTime</pl:itemsTimeRepresentation>
+				<pl:itemsBehaviorWhenSpaceInsufficient>CollapseItems</pl:itemsBehaviorWhenSpaceInsufficient>
+				<pl:autoMinColumnWidth>true</pl:autoMinColumnWidth>
+				<pl:autoMinRowHeight>true</pl:autoMinRowHeight>
+				<pl:minColumnWidth>0</pl:minColumnWidth>
+				<pl:minRowHeight>0</pl:minRowHeight>
+				<pl:fixDimensionsHeader>auto</pl:fixDimensionsHeader>
+				<pl:fixTimeScaleHeader>auto</pl:fixTimeScaleHeader>
+				<pl:border width="1">
+					<v8ui:style xsi:type="v8ui:ControlBorderType">Single</v8ui:style>
+				</pl:border>
+				<pl:newItemsTextType>FormattedString</pl:newItemsTextType>
+			</Settings>
+		</Attribute>
+		<Attribute name="Ресторан" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ресторан</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Рестораны</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Список" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Document.ФормированиеЗаявки</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+</Form>

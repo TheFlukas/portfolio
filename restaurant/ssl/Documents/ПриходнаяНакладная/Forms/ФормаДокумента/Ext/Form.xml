@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="AfterWrite">ПослеЗаписи</Event>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+			<SelectedItemsActionsPanel name="НомерПанельДействийВыделенныхСтрок" id="47"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+			<SelectedItemsActionsPanel name="ДатаПанельДействийВыделенныхСтрок" id="48"/>
+		</InputField>
+		<InputField name="Поставщик" id="7">
+			<DataPath>Объект.Поставщик</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПоставщикКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ПоставщикРасширеннаяПодсказка" id="9"/>
+			<SelectedItemsActionsPanel name="ПоставщикПанельДействийВыделенныхСтрок" id="49"/>
+		</InputField>
+		<InputField name="Склад" id="10">
+			<DataPath>Объект.Ресторан</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СкладКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="12"/>
+			<SelectedItemsActionsPanel name="СкладПанельДействийВыделенныхСтрок" id="50"/>
+		</InputField>
+		<InputField name="Тип" id="13">
+			<DataPath>Объект.Тип</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТипКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="15"/>
+			<SelectedItemsActionsPanel name="ТипПанельДействийВыделенныхСтрок" id="51"/>
+		</InputField>
+		<RadioButtonField name="Оплата" id="44">
+			<DataPath>Объект.Оплата</DataPath>
+			<RadioButtonType>Tumbler</RadioButtonType>
+			<ChoiceList>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation/>
+						<Value xsi:type="xr:DesignTimeRef">Enum.ТипыДенежныхСредств.EnumValue.Наличные</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation/>
+						<Value xsi:type="xr:DesignTimeRef">Enum.ТипыДенежныхСредств.EnumValue.Безналичные</Value>
+					</xr:Value>
+				</xr:Item>
+			</ChoiceList>
+			<ContextMenu name="ОплатаКонтекстноеМеню" id="45"/>
+			<ExtendedTooltip name="ОплатаРасширеннаяПодсказка" id="46"/>
+			<SelectedItemsActionsPanel name="ОплатаПанельДействийВыделенныхСтрок" id="52"/>
+		</RadioButtonField>
+		<Table name="Сведения" id="16">
+			<Representation>List</Representation>
+			<RowSelectionMode>Cell</RowSelectionMode>
+			<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Сведения</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СведенияКонтекстноеМеню" id="17"/>
+			<AutoCommandBar name="СведенияКоманднаяПанель" id="18"/>
+			<ExtendedTooltip name="СведенияРасширеннаяПодсказка" id="19"/>
+			<SearchStringAddition name="СведенияСтрокаПоиска" id="20">
+				<AdditionSource>
+					<Item>Сведения</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СведенияСтрокаПоискаКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="СведенияСтрокаПоискаРасширеннаяПодсказка" id="22"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СведенияСостояниеПросмотра" id="23">
+				<AdditionSource>
+					<Item>Сведения</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СведенияСостояниеПросмотраКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="СведенияСостояниеПросмотраРасширеннаяПодсказка" id="25"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СведенияУправлениеПоиском" id="26">
+				<AdditionSource>
+					<Item>Сведения</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СведенияУправлениеПоискомКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="СведенияУправлениеПоискомРасширеннаяПодсказка" id="28"/>
+			</SearchControlAddition>
+			<SelectedItemsActionsPanel name="СведенияПанельДействийВыделенныхСтрок" id="53"/>
+			<ChildItems>
+				<LabelField name="СведенияНомерСтроки" id="29">
+					<DataPath>Объект.Сведения.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="СведенияНомерСтрокиКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="СведенияНомерСтрокиРасширеннаяПодсказка" id="31"/>
+					<SelectedItemsActionsPanel name="СведенияНомерСтрокиПанельДействийВыделенныхСтрок" id="54"/>
+				</LabelField>
+				<InputField name="СведенияНазвание" id="32">
+					<DataPath>Объект.Сведения.Название</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СведенияНазваниеКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="СведенияНазваниеРасширеннаяПодсказка" id="34"/>
+					<SelectedItemsActionsPanel name="СведенияНазваниеПанельДействийВыделенныхСтрок" id="55"/>
+				</InputField>
+				<InputField name="СведенияКоличество" id="35">
+					<DataPath>Объект.Сведения.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СведенияКоличествоКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="СведенияКоличествоРасширеннаяПодсказка" id="37"/>
+					<SelectedItemsActionsPanel name="СведенияКоличествоПанельДействийВыделенныхСтрок" id="56"/>
+					<Events>
+						<Event name="OnChange">СведенияКоличествоКоличествоПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="СведенияЦена" id="38">
+					<DataPath>Объект.Сведения.Цена</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СведенияЦенаКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="СведенияЦенаРасширеннаяПодсказка" id="40"/>
+					<SelectedItemsActionsPanel name="СведенияЦенаПанельДействийВыделенныхСтрок" id="57"/>
+					<Events>
+						<Event name="OnChange">СведенияЦенаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="СведенияСумма" id="41">
+					<DataPath>Объект.Сведения.Сумма</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СведенияСуммаКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="СведенияСуммаРасширеннаяПодсказка" id="43"/>
+					<SelectedItemsActionsPanel name="СведенияСуммаПанельДействийВыделенныхСтрок" id="58"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ПриходнаяНакладная</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>AccumulationRegister.ОстаткиРесурсов.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccumulationRegister.Поставки.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccumulationRegister.СтоимостьРесурсов.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>

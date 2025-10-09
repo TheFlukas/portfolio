@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.21">
+	<Item id="4e104be8-43f4-4161-8dbf-9de8418b2dd9">
+		<Name>Ассортимент</Name>
+		<Code>003</Code>
+		<Description>Ассортимент</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="c778c744-96ba-431e-ae8d-0558db794a34">
+		<Name>Блюдо</Name>
+		<Code>001</Code>
+		<Description>Блюдо</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="9a79ca1a-1567-4e16-8e38-5d0de525d6cb">
+		<Name>Накладные</Name>
+		<Code>004</Code>
+		<Description>Накладные</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="9999dec9-c9c1-4574-a775-83aa4e4b2ad0">
+		<Name>Напиток</Name>
+		<Code>002</Code>
+		<Description>Напиток</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="ed8c7f77-3441-41a8-8912-795829051706">
+		<Name>Сеты</Name>
+		<Code>005</Code>
+		<Description>Сеты</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+</PredefinedData>

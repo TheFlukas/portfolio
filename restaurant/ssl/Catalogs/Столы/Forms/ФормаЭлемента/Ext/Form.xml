@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаЗаписатьИЗакрыть" id="29">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.StandardCommand.WriteAndClose</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Сохранить</v8:content>
+					</v8:item>
+				</Title>
+				<ButtonImportance>Main</ButtonImportance>
+				<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="30"/>
+			</Button>
+			<Button name="ФормаЗаписать" id="35">
+				<Type>CommandBarHyperlink</Type>
+				<CommandName>Form.StandardCommand.Write</CommandName>
+				<TextColor>#339966</TextColor>
+				<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="36"/>
+			</Button>
+			<Button name="ФормаУстановитьПометкуУдаления" id="31">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.SetDeletionMark</CommandName>
+				<ExtendedTooltip name="ФормаУстановитьПометкуУдаленияРасширеннаяПодсказка" id="32"/>
+			</Button>
+			<Button name="ФормаУдалить" id="33">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.Delete</CommandName>
+				<ExtendedTooltip name="ФормаУдалитьРасширеннаяПодсказка" id="34"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Ресторан" id="7">
+			<DataPath>Объект.Ресторан</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ресторан</v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="РесторанКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РесторанРасширеннаяПодсказка" id="9"/>
+			<SelectedItemsActionsPanel name="РесторанПанельДействийВыделенныхСтрок" id="37"/>
+		</InputField>
+		<InputField name="Наименование" id="1">
+			<DataPath>Объект.Description</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Название столика</v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
+			<SelectedItemsActionsPanel name="НаименованиеПанельДействийВыделенныхСтрок" id="38"/>
+		</InputField>
+		<InputField name="Вместимость" id="4">
+			<DataPath>Объект.Вместимость</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вместимость, чел.</v8:content>
+				</v8:item>
+			</Title>
+			<TitleLocation>Right</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВместимостьКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ВместимостьРасширеннаяПодсказка" id="6"/>
+			<SelectedItemsActionsPanel name="ВместимостьПанельДействийВыделенныхСтрок" id="39"/>
+		</InputField>
+		<Table name="Описание" id="10">
+			<Representation>List</Representation>
+			<RowSelectionMode>Cell</RowSelectionMode>
+			<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Описание</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ОписаниеКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="ОписаниеКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="ОписаниеСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>Описание</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ОписаниеСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ОписаниеСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ОписаниеСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>Описание</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ОписаниеСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ОписаниеСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ОписаниеУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>Описание</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ОписаниеУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ОписаниеУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<SelectedItemsActionsPanel name="ОписаниеПанельДействийВыделенныхСтрок" id="40"/>
+			<ChildItems>
+				<InputField name="ОписаниеДополнительныеСведения" id="26">
+					<DataPath>Объект.Описание.ДополнительныеСведения</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОписаниеДополнительныеСведенияКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ОписаниеДополнительныеСведенияРасширеннаяПодсказка" id="28"/>
+					<SelectedItemsActionsPanel name="ОписаниеДополнительныеСведенияПанельДействийВыделенныхСтрок" id="41"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Столы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
