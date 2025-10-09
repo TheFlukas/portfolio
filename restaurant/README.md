@@ -62,9 +62,9 @@
 ## 🧩 Код и логика
 
 Примеры модулей и листингов:
-- [Catalog_Menu_element_form_code_listing.png](listing/Catalog_Menu_element_form_code_listing.png)
-- [Catalog_restaurant_manager_module_code_listing.png](listing/Catalog_restaurant_manager_module_code_listing.png)
-- [Data_processor_order_list_code_listing.png](listing/Data_processor_order_list_code_listing.png)
+- ![Catalog_Menu_element_form_code_listing.png](listing/Catalog_Menu_element_form_code_listing.png)
+- ![Catalog_restaurant_manager_module_code_listing.png](listing/Catalog_restaurant_manager_module_code_listing.png)
+- ![Data_processor_order_list_code_listing.png](listing/Data_processor_order_list_code_listing.png)
 
 ER-схема базы данных:  
 ![Database scheme](docs/Restaurant_general_scheme.svg)
