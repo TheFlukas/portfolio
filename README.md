@@ -15,7 +15,7 @@
 | [doors-factory](doors-factory) | **Производство дверей** — расчет материалов, себестоимости и отчетность по заказам. |
 | [ut11-supp-products](ut11-supp-products) | **Доработка типовой конфигурации 1С:УТ 11.5** — учет сопутствующих товаров, документы, печатные формы, внешний отчет. |
 | [extension-ut11](extension-ut11) | **Расширение конфигурации 1С:УТ 11** — документ «Пояснительная записка», отчет с рассылкой, доработка форм без изменения типовой. |
-| [data-processor-excel-scripts-and-calculations](data-processor-excel-scripts-and-calculations) | Внешняя обработка **для Excel** — импорт, фильтрация и расчет данных с использованием функции общего модуля. |
+| [data-processor-excel-scripts-and-calculations](data-processor-excel-scripts-and-calculations) | Конфигурация демоэкзамена — импорт из excel, фильтрация и расчет данных с использованием функции общего модуля. |
 
 ---
 
