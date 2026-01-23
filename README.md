@@ -2,6 +2,9 @@
 ![1C Developer](https://img.shields.io/badge/1C--Developer-FFCC00.svg?logo=1C&logoColor=black)
 ![Platform](https://img.shields.io/badge/Platform-1C%3AEnterprise%208.3-222222.svg)
 ![GitHub](https://img.shields.io/badge/GitHub-TheFlukas-000000.svg?logo=github)
+![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
 
 Здесь собраны мои основные учебные и практические проекты 
@@ -21,8 +24,8 @@
 | [restaurant](restaurant) | Самописная конфигурация **«Ресторан»** — учет заказов, меню и расчет себестоимости блюд. |
 | [meat-plant](meat-plant) | Конфигурация **«Мясокомбинат»** — управление партиями, сырьем и выпуском продукции. |
 | [data-processor-excel-scripts-and-calculations](data-processor-excel-scripts-and-calculations) | Конфигурация демоэкзамена — импорт из excel, фильтрация и расчет данных с использованием функции общего модуля. |
-| [createx](CreateX) | **Адаптивный сайт CreateX** |
-| [futuretech](FutureTech) | **Адаптивный сайт FutureTech** |
+| [createx](createx) | **Адаптивный сайт CreateX** |
+| [futuretech](futuretech) | **Адаптивный сайт FutureTech** |
 
 ---
 
@@ -42,7 +45,7 @@
 ## 📎 Контакты
 
 📫 [GitHub.com/TheFlukas](https://github.com/TheFlukas)  
-💼 Используется в резюме как демонстрация практического опыта работы в 1С.
+💼 Используется в резюме как демонстрация практического опыта работы.
 
 ---
 
