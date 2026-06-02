@@ -90,7 +90,7 @@
 
 | Объект | Изображение |
 |--------|--------------|
-| Регистры и движение | ![Accumulation register](screenshots/[Accumulation register_movement_of_related_goods.png]) |
+| Регистры и движение | ![Accumulation register](screenshots/Accumulation register_movement_of_related_goods.png) |
 | Документ "Корректировка сопутствующих товаров" | ![Adjustment doc](screenshots/Document_adjustment_of_related_goods_for_equipment.png) |
 | Документ "Приобретение товаров" | ![Purchase doc](screenshots/Document_purchase_of_goods_and_services.png) |
 | Реализация и печать сопутствующих товаров | ![Sale doc print](screenshots/Document_sale_of_goods_and_services_print_form_written-off_related_goods.png) |
